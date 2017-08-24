@@ -12,14 +12,14 @@ sudo mongo admin --username root --password bitnami
 This application is deployed at 54.89.191.222
 
 ## MongoDB Schema
-> db.cfb_picks_users.find()
+> db.cfb_picks_users.find()<p>
 { "_id" : ObjectId("599f14cec1f2b3dee06d1f16"), "username" : "admin", "password" : "admin", "name" : "Administrator" }
 
-> db.cfb_picks_games.find()
+> db.cfb_picks_games.find()<p>
 { "_id" : ObjectId("599f173dc1f2b3dee06d1f1a"), "gameId" : "12345", "week" : 0, "season" : 2017, "awayTeam" : "USC", "homeTeam" : "Texas", "spread" : -3, "inUse" : true, "homeTeamWon" : true }
 
-> db.cfb_picks.find()
+> db.cfb_picks.find()<p>
 { "_id" : ObjectId("599f1609c1f2b3dee06d1f18"), "username" : "admin", "gameId" : "12345", "pickedHomeTeam" : false }
 
-> db.cfb_picks_leagues.find()
+> db.cfb_picks_leagues.find()<p>
 { "_id" : ObjectId("599f16d9c1f2b3dee06d1f19"), "leagueId" : "67890", "leagueName" : "test", "leagueOwner" : "admin", "members" : [ "admin", "georgio" ] }
