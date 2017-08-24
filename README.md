@@ -1,5 +1,5 @@
 # cfb-picks
-Picker for college football games
+Picker for college football games<p>
 This is running on an ec2 and is built using the MEAN stack.
 
 ## Command to remote into the machine
