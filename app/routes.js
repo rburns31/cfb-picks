@@ -10,4 +10,12 @@ module.exports = function(app) {
 		res.sendfile('./public/index.html');
 	});
 
+	app.get('/getThisWeeksGames', function (req, res) {
+		console.log("Request to get this week's games received");
+
+
+
+
+	});
+
 };
